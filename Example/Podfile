@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZGAPIsKit_Example' do
+  pod 'ZGAPIsKit', :path => '../'
+
+  target 'ZGAPIsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
